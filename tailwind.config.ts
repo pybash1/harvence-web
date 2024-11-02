@@ -5,6 +5,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {},
+      colors: {
+        primary: "#3355ff",
+      },
     },
   },
   plugins: [],
