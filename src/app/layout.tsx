@@ -1,6 +1,7 @@
 import "~/styles/globals.css";
 
 import { type Metadata } from "next";
+import { plain } from "~/fonts/fonts";
 
 export const metadata: Metadata = {
   title: "Harvence",
@@ -12,7 +13,7 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={``}>
+    <html lang="en" className={`${plain.className}`}>
       <body>{children}</body>
     </html>
   );
